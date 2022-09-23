@@ -58,13 +58,10 @@ def newTab():
 
 # Launch setup
 
-pt.press("win")
-write("ordi bure livre ")
-
 counter = 0
 
 pt.press('win')
-sleep(1)
+sleep(3)
 pt.write('ordi')
 sleep(0.4)
 pt.press('enter')
