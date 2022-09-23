@@ -92,6 +92,7 @@ altTab()
 
 write("5e")
 pt.press('enter')
+sleep(0.3)
 write("met")
 pt.press("enter")
 pt.press("down")
