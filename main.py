@@ -61,39 +61,17 @@ def newTab():
 counter = 0
 
 pt.press('win')
-sleep(3)
-pt.write('ordi')
-sleep(0.4)
-pt.press('enter')
-sleep(0.4)
-pt.write('prof')
-sleep(0.4)
-pt.press('enter')
-sleep(0.4)
-pt.write('parta')
-sleep(0.4)
-pt.press('enter')
-sleep(0.4)
-pt.write('math')
-sleep(0.4)
-pt.press('enter')
-sleep(0.4)
-pt.write('lp')
-sleep(0.4)
-pt.press('enter')
-sleep(0.4)
+sleep(0.1)
+write('ordi prof parta math lpb 3e')
 
-write('3e')
 pt.keyDown('ctrl')
 pt.press('enter')
 pt.keyUp('ctrl')
 
 altTab()
 
-write("5e")
-pt.press('enter')
-sleep(0.3)
-write("met")
+write("5e met")
+
 pt.press("enter")
 pt.press("down")
 pt.press("up")
@@ -104,20 +82,18 @@ pt.press("enter")
 
 deskTop()
 
-write('ent')
-pt.press('enter')
+write('ent ')
 
 waitAndClick('laclasse-id')
-write('lbendeks')
-pt.press('tab')
-write('killer03120312')
-pt.press('enter')
 
 waitAndClick('pronote')
 
 newTab()
 
 waitAndClick('biblio-manuel')
+
+newTab()
+
 waitAndClick('gmail')
 
 pt.keyDown("ctrl")
