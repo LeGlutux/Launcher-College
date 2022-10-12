@@ -6,7 +6,7 @@ from time import sleep
 
 def write(str):
     for letter in str:
-        if letter == ' ':
+        if letter == " ":
             sleep(0.1)
             pt.press("enter")
             sleep(0.5)
@@ -47,8 +47,7 @@ def deskTop():
 
 def waitAndClick(string):
     while locate(string) == False:
-        counter += 1
-        print(counter)
+        print("waiting")
     nav_to_image(string, 2)
 
 def newTab():
@@ -62,7 +61,7 @@ counter = 0
 
 pt.press('win')
 sleep(0.1)
-write('ordi prof parta math lpb 3e')
+write('ordi p p mat lpb 3e')
 
 pt.keyDown('ctrl')
 pt.press('enter')
